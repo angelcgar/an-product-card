@@ -1,4 +1,4 @@
-# an-product-card
+# TS-product-card
 
 Este es un ejemplo de despliegue para npm
 
