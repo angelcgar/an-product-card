@@ -1,14 +1,14 @@
-import "react-app-polyfill/ie11";
-import * as React from "react";
-import * as ReactDOM from "react-dom";
+import 'react-app-polyfill/ie11';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 
-import { ProductButtons, ProductImage, ProductTitle } from "../.";
-import ProductCard from "../dist/components";
+import { ProductButtons, ProductImage, ProductTitle } from '../.';
+import ProductCard from '../dist/components';
 
 const product = {
-	id: "1",
-	title: "Coffe Mog",
-	img: "./coffee-mug.png",
+	id: '1',
+	title: 'Coffe Mog',
+	img: './coffee-mug.png',
 };
 
 const App = () => {
@@ -33,4 +33,4 @@ const App = () => {
 	);
 };
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'));
